@@ -2,12 +2,9 @@
 <head>
 <title>cat</title>
 
-<embed src= "star_wars.mp3">
-<style>
-body{
-    background-image: url("stars.jpg");
-}
-</style>
+<embed class="music" src= "star_wars.mp3">
+
+
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js">
     </script>
     <script>
@@ -21,7 +18,19 @@ body{
             confirmBox.show();
         }
     </script>
-    <style>
+<style>
+body{
+    background-image: url("stars.jpg");
+}
+
+.music{
+    display:none;
+}
+
+.text{
+    
+}
+
         #confirm {
             display: none;
             background-color: #FFFFFF;
@@ -60,8 +69,9 @@ body{
     <input type="button" value="Click Me" onclick="functionAlert();" />
 </head>
 <body>
-    <p style="colour: blue; font-size: 90px;"><mark>MEOW</mark></P>
-        <p2 style="colour: red; font-size:39px;"><mark>In a galaxy far away darth kitten was in the death hair ball.Luke claw walker and princess
+    <p style="colour: blue; font-size: 90px; text-align:center; margin-top:9px;"><mark>MEOW</mark></P>
+
+        <p2 class="text" style="colour: red; font-size:39px;"><mark>In a galaxy far away darth kitten was in the death hair ball.Luke claw walker and princess
             meower where in the kitten nip forest.</mark></p2>
         <mark>Click <a href="https://media.giphy.com/media/BK1EfIsdkKZMY/giphy.gif">here</a> for a surprise.</mark>
         <div>
