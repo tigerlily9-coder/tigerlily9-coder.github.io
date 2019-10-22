@@ -5,19 +5,19 @@
 <embed class="music" src= "star_wars.mp3">
 
 
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js">
-    </script>
-    <script>
-        function functionAlert(msg, myYes) {
-            var confirmBox = $("#confirm");
-            confirmBox.find(".message").text(msg);
-            confirmBox.find(".yes").unbind().click(function() {
-            confirmBox.hide();
-            });
-            confirmBox.find(".yes").click(myYes);
-            confirmBox.show();
-        }
-    </script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js">
+</script>
+<script>
+    function functionAlert(msg, myYes) {
+        var confirmBox = $("#confirm");
+        confirmBox.find(".message").text(msg);
+        confirmBox.find(".yes").unbind().click(function() {
+        confirmBox.hide();
+        });
+        confirmBox.find(".yes").click(myYes);
+        confirmBox.show();
+    }
+</script>
 <style>
 body{
     background-image: url("stars.jpg");
@@ -27,9 +27,6 @@ body{
     display:none;
 }
 
-.text{
-    
-}
 
         #confirm {
             display: none;
@@ -56,8 +53,7 @@ body{
         #confirm .message {
             text-align: left;
         }
-    </style>    
-    </head>
+</style>    
     <body>
     <div id="confirm">
         <div class="message">WELCOME TO CATWARS.</div>
