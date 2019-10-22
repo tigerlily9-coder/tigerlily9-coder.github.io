@@ -8,8 +8,17 @@ body{
 
 </style>
 <script>
-    alert('hello');
+    $(function() {
+        $( "#dialog" ).dialog();
+    });
 </script>
+    <body>
+      
+    <div id="dialog" title="Basic dialog">
+        <p>Image:</p>
+        <img src="http://placehold.it/50x50" alt="Placeholder Image" />
+      
+    </div>
 </head>
 <body>
     <p style="colour: blue; font-size: 90px;"><mark>MEOW</mark></P>
