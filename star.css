@@ -4,6 +4,11 @@
     animation: text 7.9s 1;
     /* position: relative;     */
 }
+.text2{
+    position: relative;
+    text-align: center;
+
+}
 @keyframes text {
     0%{
         /* color: #000; */
@@ -23,12 +28,14 @@ body{
 }
 
 
-
+.cat_wars{
+    position:-webkit-sticky
+}
 .Darth_cat{
     position:-webkit-sticky
 }
  .kitty{
-     position:-ms-page
+     position:-webkit-sticky
  }
 
 .jedi_kitty{
